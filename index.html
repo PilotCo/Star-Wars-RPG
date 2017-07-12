@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Star Wars RPG Game</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Rakkas" rel="stylesheet">
+
+	<!-- Latest compiled and minified CSS for Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript Bootstrap-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- JQuery link courtesy of google-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body id="bg">
+
+	<!-- Page Header -->
+	<div class="container-fluid" id="header"> 
+		<div class="page-header">
+			<div class="row">
+				<div class="col-lg-3">
+					<img id="rebelSymbol" src="assets/images/rebelSymbol.jpg">
+				</div>
+				<div class="col-lg-6">
+					<h1>Star Wars RPG</h1>
+				</div>
+				<div class="col-lg-3">
+					<img id="imperialSymbol" src="assets/images/imperialSymbol.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Page Header -->
+
+
+	<!-- Alerts to the user -->
+	<div class="container-fliud">
+		<div class="row">
+			<div id="alertUserContainer">
+				<span id="alertUser">user alerts</span>
+			</div>
+		</div>
+	</div>
+	<!-- End alerts to the user -->
+
+
+	<!-- Character list -->
+	<div class="container">
+		<div class="row" id="characterList">
+
+			<div class="col-lg-3">
+				<div class="character" id="chewbacca">
+				<div class="character">
+					<p class="characterName">Chewbacca</p>
+					<img class="characterImg" src="assets/images/chewbacca.jpg">
+					<p class="health">HP: <span id="chewyHealth"></span></p>
+				</div>
+				</div>			
+			</div>
+
+			<div class="col-lg-3">
+				<div class="character" id="boba">
+				<div class="character">
+					<p class="characterName">Boba Fett</p>
+					<img class="characterImg" src="assets/images/Boba_Fett.png">
+					<p class="health">HP: <span id="bobaHealth"></span></p>
+				</div>
+				</div>			
+			</div>
+
+			<div class="col-lg-3">
+				<div class="character" id="stormTrooper">
+				<div class="character">
+					<p class="characterName">Storm Trooper</p>
+					<img class="characterImg" src="assets/images/stormTrooper.jpg">
+					<p class="health">HP: <span id="stormTrooperHealth"></span></p>
+				</div>
+				</div>			
+			</div>
+
+			<div class="col-lg-3">
+				<div class="character" id="r2d2">
+				<div class="character">
+					<p class="characterName">r2d2</p>
+					<img class="characterImg" src="assets/images/r2d2.jpg">
+					<p class="health">HP: <span id="r2d2Health"></span></p>
+				</div>		
+				</div>	
+			</div>
+
+		</div>
+	
+	<!-- End character list -->
+
+
+	<!-- The battlegrounds -->
+		<div class="row">
+			<div class="battlegrounds">
+				<p id="battlegroundsText">THE BATTLEGROUNDS</p>
+
+					<div id="userFighter">
+					</div>
+
+					<button class="button" id="attackBtn" value="Attack">Attack</button>
+					<!--absolute positioning-->
+					<div id="enemyFighter">
+					</div>
+				
+			</div>
+		</div>
+		<!-- End the battlegrounds -->
+		<div class="row">
+			<button class="button" id="resetBtn" value="reset">Restart</button>
+		</div>
+
+	</div>
+
+</body>
+
+<script src="assets/javascript/game.js"></script>
+
+</html>

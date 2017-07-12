@@ -1,0 +1,114 @@
+body, html {
+	height:100%;
+	font-family: 'Rakkas', cursive;
+}
+
+#bg{
+	background-image: url("https://images4.alphacoders.com/120/thumb-1920-12066.jpg");
+    background-color: #cccccc;
+    height:100%;
+    background-position: 0px 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header{
+	margin:0px;
+}
+
+#rebelSymbol{
+	width:120px;
+	border-style: solid black;
+	border-radius: 50px;
+}
+
+#imperialSymbol{
+	width:120px;
+	border-style: solid black;
+	border-radius: 50px;
+}
+
+#header{
+	color:yellow;
+	background-image: url("https://i.ytimg.com/vi/SwT2jf-O-jE/maxresdefault.jpg");
+	background-size: cover;
+	background-color: black;
+	text-align: center;
+	font-family: 'Rakkas', cursive;
+	border-bottom-width: 5px;
+	border-bottom-style:solid;
+}
+
+#alertUserContainer{
+	color: yellow;
+	font-size: 150%;
+	text-align: center;
+	padding-bottom: 5px;
+	margin-bottom: 45px;
+	background-color: black;
+}
+
+.characterImg{
+	width:150px;
+	height:130px;
+}
+
+.character{
+	font-family: 'Rakkas', cursive;
+	color:yellow;
+	text-shadow: 1px 1px 6px black;
+	border: solid black;
+	text-align: center;
+	display:inline-block;
+	background-color: lightgrey;
+	border-radius: 25px;
+}
+
+.battlegrounds{
+	color: yellow;
+	text-align: center;
+	margin-top:50px;
+	margin-left:27%;
+	margin-bottom: 50px;
+	width:550px;
+	height:250px;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	background-color: white;
+	background-image: url("http://a.abcnews.com/images/Technology/starwars5669d25d34714_12x5_1600.jpg");
+	background-size: cover;
+}
+
+#battlegroundsText{
+	background:black;
+}
+
+.button{
+	color:yellow;
+	position: absolute;
+	background-color: black;
+	border-color: red;
+	border-radius: 15px;
+}
+
+#userFighter{
+	margin-top:15px;
+	margin-left:50px;
+	margin-right:10px;
+	float:left;
+}
+
+#enemyFighter{
+	float:right;
+	margin-top:15px;
+	margin-right:50px;
+}
+
+#attackBtn{
+	right:48%;
+}
+
+#resetBtn{
+	margin-left: 44%;
+}
