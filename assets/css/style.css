@@ -111,4 +111,15 @@ body, html {
 
 #resetBtn{
 	right:48%;
+	bottom:5%;
 }
+
+@media only screen and (max-width: 1218px){
+	.characterImg{
+		width:90px;
+		height:70px;
+	}
+	.battlegrounds{
+		position:absolute;
+		top:450px;
+	}
