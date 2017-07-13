@@ -64,6 +64,22 @@ body, html {
 	border-radius: 25px;
 }
 
+#chewbacca{
+	margin-left:20%;
+}
+
+#boba{
+	margin-left: 15px;
+}
+
+#stormTrooper{
+	margin-left:15px;
+}
+
+#r2d2{
+	margin-left: 15px;
+}
+
 .battlegrounds{
 	color: yellow;
 	text-align: center;
@@ -114,12 +130,40 @@ body, html {
 	bottom:5%;
 }
 
-@media only screen and (max-width: 1218px){
+@media only screen and (max-width: 1190px){
 	.characterImg{
-		width:90px;
-		height:70px;
+		width:100px;
+		height:80px;
+	}
+
+	#chewbacca{
+		margin-left: 20%
+	}
+
+	#boba{
+		margin-left: 15px;
+	}
+
+	#stormTrooper{
+		margin-left: 15px;
+	}
+
+	#r2d2{
+		margin-left: 15px;
 	}
 	.battlegrounds{
 		position:absolute;
-		top:450px;
+		top:600px;
+		margin-left:25%;
+		width:400px;
+		height:200px;
 	}
+
+	#attackBtn{
+		right:43%;
+	}
+
+	#resetBtn{
+		right:43%;
+	}
+}
